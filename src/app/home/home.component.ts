@@ -9,17 +9,9 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router){ }
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+  constructor() { }
 
-  goToVotes($myParam: string = ''): void {
-    const navigationDetails: string[] = ['/book'];
-    if($myParam.length) {
-      navigationDetails.push($myParam);
-    }
-    this.router.navigate(navigationDetails);
+  ngOnInit(): void {
   }
 }
 

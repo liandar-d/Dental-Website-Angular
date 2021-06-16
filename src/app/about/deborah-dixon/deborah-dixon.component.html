@@ -1,4 +1,61 @@
 <div class="page-wrapper">
+  <header class="site-header header-one">
+    <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+      <div class="container clearfix">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="logo-box clearfix">
+          <a class="navbar-brand" href="home" routerLink="home">
+            <img
+              src="../../assets/images/resources/logo.png"
+              class="main-logo"
+              alt="Awesome Image"
+            />
+            <img
+              src="../../assets/images/resources/logo.png"
+              class="stick-logo"
+              alt="Awesome Image"
+            />
+          </a>
+          <button class="menu-toggler" data-target=".main-navigation">
+            <span class="fa fa-bars"></span>
+          </button>
+        </div>
+        <!-- /.logo-box -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="main-navigation">
+          <ul class="navigation-box">
+            <li>
+              <a href="home" routerLink="/home" routerLinkActive="currents"
+                >Home</a
+              >
+            </li>
+            <li class="submenu current">
+              <a href="about" routerLink="/about">About Us</a>
+            </li>
+            <li><a href="services" routerLink="/services">Services</a></li>
+            <li><a href="gallery" routerLink="/gallery">Gallery</a></li>
+            <li class="">
+              <a href="contact" routerLink="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        <div class="right-side-box">
+          <a href="tel:09-432-8139" class="header-one__cta">
+            <span class="header-one__cta-icon">
+              <i class="dentallox-icon-call-answer"></i>
+            </span>
+            <span class="header-one__cta-content">
+              <span class="header-one__cta-text">Call Us for query:</span>
+              <span class="header-one__cta-number">09-432-8139</span>
+            </span>
+          </a>
+        </div>
+        <!-- /.right-side-box -->
+      </div>
+      <!-- /.container -->
+    </nav>
+  </header>
   <section class="inner-banner">
     <div class="container">
       <h2 class="inner-banner__title">Deborah Dixon</h2>
@@ -21,7 +78,10 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="doctor-two__image">
-            <img src="../../../assets/images/resources/Deborah-Dixon.jpg" alt="Awesome Image" />
+            <img
+              src="../../../assets/images/resources/Deborah-Dixon.jpg"
+              alt="Awesome Image"
+            />
           </div>
           <!-- /.doctor-two__image -->
         </div>

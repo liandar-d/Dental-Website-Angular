@@ -1,56 +1,153 @@
 <div class="page-wrapper">
-    <section class="contact-one">
-        <div class="container">
+  <header class="site-header header-one">
+    <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+      <div class="container clearfix">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="logo-box clearfix">
+          <a class="navbar-brand" href="home" routerLink="home">
+            <img
+              src="../../assets/images/resources/logo.png"
+              class="main-logo"
+              alt="Awesome Image"
+            />
+            <img
+              src="../../assets/images/resources/logo.png"
+              class="stick-logo"
+              alt="Awesome Image"
+            />
+          </a>
+          <button class="menu-toggler" data-target=".main-navigation">
+            <span class="fa fa-bars"></span>
+          </button>
+        </div>
+        <!-- /.logo-box -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="main-navigation">
+          <ul class="navigation-box">
+            <li>
+              <a href="home" routerLink="/home" routerLinkActive="currents"
+                >Home</a
+              >
+            </li>
+            <li class="submenu">
+              <a href="about" routerLink="/about">About Us</a>
+            </li>
+            <li class="current">
+              <a href="services" routerLink="/services">Services</a>
+            </li>
+            <li><a href="gallery" routerLink="/gallery">Gallery</a></li>
+            <li >
+              <a href="contact" routerLink="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        <div class="right-side-box">
+          <a href="tel:09-432-8139" class="header-one__cta">
+            <span class="header-one__cta-icon">
+              <i class="dentallox-icon-call-answer"></i>
+            </span>
+            <span class="header-one__cta-content">
+              <span class="header-one__cta-text">Call Us for query:</span>
+              <span class="header-one__cta-number">09-432-8139</span>
+            </span>
+          </a>
+        </div>
+        <!-- /.right-side-box -->
+      </div>
+      <!-- /.container -->
+    </nav>
+  </header>
+  <section class="contact-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <form
+            action="book.php"
+            method="post"
+            class="contact-one__form contact-form-validated"
+          >
+            <h2 class="contact-one__title">Request an Appointment</h2>
+            <!-- /.contact-one__title -->
             <div class="row">
-                <div class="col-lg-7">
-                    <form action="book.php" method="post" class="contact-one__form contact-form-validated">
-                        <h2 class="contact-one__title">Request an Appointment</h2><!-- /.contact-one__title -->
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <input type="text" name="name" placeholder="Full Name">
-                            </div><!-- /.col-lg-12 -->
-                            <div class="col-lg-12">
-                                <input type="text" name="email" placeholder="Email Address">
-                            </div><!-- /.col-lg-12 -->
-                            <div class="col-lg-12">
-                                <input type="text" name="phone" placeholder="Phone">
-                            </div><!-- /.col-lg-12 -->
-                            <div class="col-lg-12">
-                                    <input type="text" name="date" class="datepicker" placeholder="Date">
-                                </div><!-- /.col-md-6 -->
-                                <div class="col-lg-12">
-                                    <input type="text" name="time" placeholder="Time">
-                                </div><!-- /.col-md-6 -->
-                            <div class="col-lg-12">
-                                <textarea placeholder="Message" name="message"></textarea>
-                            </div><!-- /.col-lg-12 -->
-                            <div class="col-lg-12">
-                                <button type="submit" class="thm-btn">Submit Now</button>
-                            </div><!-- /.col-lg-12 -->
-                        </div><!-- /.row -->
-                    </form>
-                </div><!-- /.col-lg-7 -->
-                <div class="col-lg-5 d-flex">
-                    <div class="contact-one__content my-auto">
-                        <div class="contact-one__widget">
-                            <h3 class="contact-one__widget-title">Addres :</h3>
-                            <p class="contact-one__widget-text">19/378 Marsden Point Road, Ruakaka 0171</p><!-- /.contact-one__widget-text -->
-                        </div><!-- /.contact-one__widget -->
-                        <div class="contact-one__widget">
-                            <h3 class="contact-one__widget-title">E-Mail :</h3>
-                            <p class="contact-one__widget-text"><a href="mailto:dentistruakaka@outlook.com">dentistruakaka@outlook.com</a></p><!-- /.contact-one__widget-text -->
-                        </div><!-- /.contact-one__widget -->
-                        <div class="contact-one__widget">
-                            <h2 class="contact-one__phone"><a href="tel:09-432-8139">09-432-8139</a></h2><!-- /.contact-one__phone -->
-                            <p class="contact-one__time">Available Time : 09.00 to 17.00</p>
-                        </div><!-- /.contact-one__widget -->
-                    </div><!-- /.contact-one__content -->
-                </div><!-- /.col-lg-5 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.contact-one -->
-    
-
-</div><!-- /.page-wrapper -->
-<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
+              <div class="col-lg-12">
+                <input type="text" name="name" placeholder="Full Name" />
+              </div>
+              <!-- /.col-lg-12 -->
+              <div class="col-lg-12">
+                <input type="text" name="email" placeholder="Email Address" />
+              </div>
+              <!-- /.col-lg-12 -->
+              <div class="col-lg-12">
+                <input type="text" name="phone" placeholder="Phone" />
+              </div>
+              <!-- /.col-lg-12 -->
+              <div class="col-lg-12">
+                <input
+                  type="text"
+                  name="date"
+                  class="datepicker"
+                  placeholder="Date"
+                />
+              </div>
+              <!-- /.col-md-6 -->
+              <div class="col-lg-12">
+                <input type="text" name="time" placeholder="Time" />
+              </div>
+              <!-- /.col-md-6 -->
+              <div class="col-lg-12">
+                <textarea placeholder="Message" name="message"></textarea>
+              </div>
+              <!-- /.col-lg-12 -->
+              <div class="col-lg-12">
+                <button type="submit" class="thm-btn">Submit Now</button>
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+          </form>
+        </div>
+        <!-- /.col-lg-7 -->
+        <div class="col-lg-5 d-flex">
+          <div class="contact-one__content my-auto">
+            <div class="contact-one__widget">
+              <h3 class="contact-one__widget-title">Addres :</h3>
+              <p class="contact-one__widget-text">
+                19/378 Marsden Point Road, Ruakaka 0171
+              </p>
+              <!-- /.contact-one__widget-text -->
+            </div>
+            <!-- /.contact-one__widget -->
+            <div class="contact-one__widget">
+              <h3 class="contact-one__widget-title">E-Mail :</h3>
+              <p class="contact-one__widget-text">
+                <a href="mailto:dentistruakaka@outlook.com"
+                  >dentistruakaka@outlook.com</a
+                >
+              </p>
+              <!-- /.contact-one__widget-text -->
+            </div>
+            <!-- /.contact-one__widget -->
+            <div class="contact-one__widget">
+              <h2 class="contact-one__phone">
+                <a href="tel:09-432-8139">09-432-8139</a>
+              </h2>
+              <!-- /.contact-one__phone -->
+              <p class="contact-one__time">Available Time : 09.00 to 17.00</p>
+            </div>
+            <!-- /.contact-one__widget -->
+          </div>
+          <!-- /.contact-one__content -->
+        </div>
+        <!-- /.col-lg-5 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.contact-one -->
+</div>
+<!-- /.page-wrapper -->
+<a href="#" data-target="html" class="scroll-to-target scroll-to-top"
+  ><i class="fa fa-angle-up"></i
+></a>

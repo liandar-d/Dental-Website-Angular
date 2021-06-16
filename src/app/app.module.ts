@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,6 +26,7 @@ import { TeethWhiteningComponent } from './services/teeth-whitening/teeth-whiten
 import { HygienistComponent } from './services/hygienist/hygienist.component';
 import { CompositeFillingsComponent } from './services/composite-fillings/composite-fillings.component';
 import { ExaminationComponent } from './services/examination/examination.component';
+import { CrownsAndBridgesComponent } from './services/crowns-and-bridges/crowns-and-bridges.component';
 
 @NgModule({
   declarations: [
@@ -48,11 +51,14 @@ import { ExaminationComponent } from './services/examination/examination.compone
     TeethWhiteningComponent,
     HygienistComponent,
     CompositeFillingsComponent,
-    ExaminationComponent
+    ExaminationComponent,
+    CrownsAndBridgesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

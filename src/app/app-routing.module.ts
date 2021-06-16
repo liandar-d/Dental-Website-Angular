@@ -13,6 +13,15 @@ import { LuisaAntonioComponent } from './about/luisa-antonio/luisa-antonio.compo
 import { DeborahDixonComponent } from './about/deborah-dixon/deborah-dixon.component';
 import { LydiaPotreousComponent } from './about/lydia-potreous/lydia-potreous.component';
 import { KaylaFlewellynComponent } from './about/kayla-flewellyn/kayla-flewellyn.component';
+import { DenturesComponent } from './services/dentures/dentures.component';
+import { RootCanalComponent } from './services/root-canal/root-canal.component';
+import { ExtractionComponent } from './services/extraction/extraction.component';
+import { ExaminationComponent } from './services/examination/examination.component';
+import { CrownsAndBridgesComponent } from './services/crowns-and-bridges/crowns-and-bridges.component';
+import { HygienistComponent } from './services/hygienist/hygienist.component';
+import { CompositeFillingsComponent } from './services/composite-fillings/composite-fillings.component';
+import { TeethWhiteningComponent } from './services/teeth-whitening/teeth-whitening.component';
+import { VeneersComponent } from './services/veneers/veneers.component';
 
 
 const routes: Routes = [
@@ -30,15 +39,15 @@ const routes: Routes = [
   { path: 'deb', component: DeborahDixonComponent},
   { path: 'lydia', component: LydiaPotreousComponent} ,
   { path: 'kayla', component: KaylaFlewellynComponent},
-
-
-
-
-
- 
-
-
-
+  { path: 'dentures', component: DenturesComponent},
+  { path: 'root', component:   RootCanalComponent},
+  { path: 'extraction', component:   ExtractionComponent},
+  { path: 'exam', component:   ExaminationComponent},
+  { path: 'composite', component:   CompositeFillingsComponent},
+  { path: 'crowns', component:   CrownsAndBridgesComponent},
+  { path: 'hygienist', component:   HygienistComponent},
+  { path: 'teeth', component:   TeethWhiteningComponent},
+  { path: 'veneers', component:   VeneersComponent},
 
 ];
 

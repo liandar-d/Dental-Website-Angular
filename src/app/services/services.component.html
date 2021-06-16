@@ -1,151 +1,394 @@
 <div class="page-wrapper">
-    <section class="inner-banner">
-        <div class="container">
-            <h2 class="inner-banner__title">Services</h2><!-- /.inner-banner__title -->
-            <ul class="thm-breadcrumb">
-                <li class="thm-breadcrumb__item"><a class="thm-breadcrumb__link" href="index.html">Home</a></li>
-                <li class="thm-breadcrumb__item current"><a class="thm-breadcrumb__link" href="#">Services</a></li>
-            </ul><!-- /.thm-breadcrumb -->
-        </div><!-- /.container -->
-    </section><!-- /.inner-banner -->
+  <header class="site-header header-one">
+    <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+      <div class="container clearfix">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="logo-box clearfix">
+          <a class="navbar-brand" href="home" routerLink="home">
+            <img
+              src="../../assets/images/resources/logo.png"
+              class="main-logo"
+              alt="Awesome Image"
+            />
+            <img
+              src="../../assets/images/resources/logo.png"
+              class="stick-logo"
+              alt="Awesome Image"
+            />
+          </a>
+          <button class="menu-toggler" data-target=".main-navigation">
+            <span class="fa fa-bars"></span>
+          </button>
+        </div>
+        <!-- /.logo-box -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="main-navigation">
+          <ul class="navigation-box">
+            <li >
+              <a href="home" routerLink="/home" routerLinkActive="currents"
+                >Home</a
+              >
+            </li>
+            <li class="submenu ">
+              <a href="about" routerLink="/about">About Us</a>
+            </li>
+            <li class="current"><a href="services" routerLink="/services">Services</a></li>
+            <li><a href="gallery" routerLink="/gallery">Gallery</a></li>
+            <li class="">
+              <a href="contact" routerLink="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        <div class="right-side-box">
+          <a href="tel:09-432-8139" class="header-one__cta">
+            <span class="header-one__cta-icon">
+              <i class="dentallox-icon-call-answer"></i>
+            </span>
+            <span class="header-one__cta-content">
+              <span class="header-one__cta-text">Call Us for query:</span>
+              <span class="header-one__cta-number">09-432-8139</span>
+            </span>
+          </a>
+        </div>
+        <!-- /.right-side-box -->
+      </div>
+      <!-- /.container -->
+    </nav>
+  </header>
+  <section class="inner-banner">
+    <div class="container">
+      <h2 class="inner-banner__title">Services</h2>
+      <!-- /.inner-banner__title -->
+      <ul class="thm-breadcrumb">
+        <li class="thm-breadcrumb__item">
+          <a class="thm-breadcrumb__link" href="index.html">Home</a>
+        </li>
+        <li class="thm-breadcrumb__item current">
+          <a class="thm-breadcrumb__link" href="" routerLink = "/services">Services</a>
+        </li>
+      </ul>
+      <!-- /.thm-breadcrumb -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.inner-banner -->
 
-    <section class="service-two">
-        <div class="container">
-            <div class="block-title text-left">
-                <h2 class="block-title__title">Dental Services In Gentle Dental Ruakaka</h2><!-- /.block-title__title -->
-                <p class="block-title__text">Gentle Dental is a modern practice situated in Ruakaka. We focus on technology and techniques that maximize patient convenience, comfort and satisfaction. We are committed to providing efficient and cost effective dental care to all of our patients. Our highly skilled dentists offer the very best care and attention to each and every patient in a peaceful and comfortable environment. We are excited to offer our services to the Rodney region.</p><!-- /.block-title__text -->
-            </div><!-- /.block-title -->
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/dentures.jpg" alt="dentures" />
-                           
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="dentures.html">Dentures</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">Dentures are prosthetic devices that are moulded...</p><!-- /.service-two__text -->
-                            <a href="dentures.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/root-1.jpg" alt="Awesome Image" />
-                           
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="root-canal.html">Root Canal</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">Root canal treatment is required when nerve of...</p><!-- /.service-two__text -->
-                            <a href="root-canal.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/Extraction.jpg"alt="Awesome Image" />
-                           
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="extraction.html">Extraction</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">Extractions are often performed when a tooth...</p><!-- /.service-two__text -->
-                            <a href="extraction.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-               
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/Veneer-1.jpg" alt="Awesome Image" />
-                           
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="veneers.html">Veneers</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">Veneers are thin pieces of porcelain or composite...</p><!-- /.service-two__text -->
-                            <a href="veneers.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/zoom-1.jpg" alt="Awesome Image" />
-                            
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="teeth-whitening.html">Teeth Whitening</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">We offer Zoom professional whitening as it is a fast...</p><!-- /.service-two__text -->
-                            <a href="teeth-whitening.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/Hygienist-1.jpg" alt="Awesome Image" />
-                            
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="hygienist.html">Hygienist</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">Hygienists play a vital role in helping maintain...</p><!-- /.service-two__text -->
-                            <a href="hygienist.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/composite.jpg" alt="Awesome Image" />
-                           
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="composite-fillings.html">Composite Fillings</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">The composite fillings are the white fillings...</p><!-- /.service-two__text -->
-                            <a href="composite-fillings.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/service-1-7.jpg" alt="Awesome Image" />
-                            
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="examination.html">Examination</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">Regular dental examinations are an important...</p><!-- /.service-two__text -->
-                            <a href="examination.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-                
-                <div class="col-lg-3">
-                    <div class="service-two__single">
-                        <div class="service-two__image">
-                            <img src="../../assets/images/services/Crowns-Bridges.jpg" alt="Awesome Image" />
-                           
-                        </div><!-- /.service-two__image -->
-                        <div class="service-two__content">
-                            <h3 class="service-two__title"><a href="crowns-and-bridges.html">Crowns & Bridges</a></h3><!-- /.service-two__title -->
-                            <p class="service-two__text">A crown is used to cover a damaged tooth... </p><!-- /.service-two__text -->
-                            <a href="crowns-and-bridges.html" class="service-two__link">Read More</a>
-                        </div><!-- /.service-two__content -->
-                    </div><!-- /.service-two__single -->
-                </div><!-- /.col-lg-3 -->
-               
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.service-two -->
+  <section class="service-two">
+    <div class="container">
+      <div class="block-title text-left">
+        <h2 class="block-title__title">
+          Dental Services In Gentle Dental Ruakaka
+        </h2>
+        <!-- /.block-title__title -->
+        <p class="block-title__text">
+          Gentle Dental is a modern practice situated in Ruakaka. We focus on
+          technology and techniques that maximize patient convenience, comfort
+          and satisfaction. We are committed to providing efficient and cost
+          effective dental care to all of our patients. Our highly skilled
+          dentists offer the very best care and attention to each and every
+          patient in a peaceful and comfortable environment. We are excited to
+          offer our services to the Rodney region.
+        </p>
+        <!-- /.block-title__text -->
+      </div>
+      <!-- /.block-title -->
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/dentures.jpg"
+                alt="dentures"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="" routerLink="/dentures">Dentures</a>
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                Dentures are prosthetic devices that are moulded...
+              </p>
+              <!-- /.service-two__text -->
+              <a href="" routerLink="/dentures" class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/root-1.jpg"
+                alt="Awesome Image"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="" routerLink="/root">Root Canal</a>
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                Root canal treatment is required when nerve of...
+              </p>
+              <!-- /.service-two__text -->
+              <a href="" routerLink="/root" class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/Extraction.jpg"
+                alt="Awesome Image"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="" routerLink="/extraction">Extraction</a>
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                Extractions are often performed when a tooth...
+              </p>
+              <!-- /.service-two__text -->
+              <a href="" routerLink="/extraction" class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
 
-    <section class="cta-two">
-        <div class="container">
-            <h2 class="cta-two__title">Have Dental Problem : Call us at <a href="tel:094328139" class="cta-two__highlight">09-432-8139</a> or make an <a href="book-an-appointment.html" class="cta-two__highlight cta-two__link">Appointment</a></h2><!-- /.cta-two__title -->
-        </div><!-- /.container -->
-    </section><!-- /.cta-two -->
-    
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/Veneer-1.jpg"
+                alt="Awesome Image"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="veneers.html" routerLink="/veneers">Veneers</a>
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                Veneers are thin pieces of porcelain or composite...
+              </p>
+              <!-- /.service-two__text -->
+              <a
+                href="veneers.html"
+                routerLink="/veneers"
+                class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/zoom-1.jpg"
+                alt="Awesome Image"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="teeth-whitening.html" routerLink="/teeth"
+                  >Teeth Whitening</a
+                >
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                We offer Zoom professional whitening as it is a fast...
+              </p>
+              <!-- /.service-two__text -->
+              <a
+                href="teeth-whitening.html"
+                routerLink="/teeth"
+                class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/Hygienist-1.jpg"
+                alt="Awesome Image"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="hygienist.html" routerLink="/hygienist">Hygienist</a>
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                Hygienists play a vital role in helping maintain...
+              </p>
+              <!-- /.service-two__text -->
+              <a
+                href="hygienist.html"
+                routerLink="/hygienist"
+                class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/composite.jpg"
+                alt="Awesome Image"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="composite-fillings.html" routerLink="/composite"
+                  >Composite Fillings</a
+                >
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                The composite fillings are the white fillings...
+              </p>
+              <!-- /.service-two__text -->
+              <a
+                href="composite-fillings.html"
+                routerLink="/composite"
+                class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/service-1-7.jpg"
+                alt="Awesome Image"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="examination.html" routerLink="/exam">Examination</a>
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                Regular dental examinations are an important...
+              </p>
+              <!-- /.service-two__text -->
+              <a
+                href="examination.html"
+                routerLink="/exam"
+                class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
 
-</div><!-- /.page-wrapper -->
-<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+        <div class="col-lg-3">
+          <div class="service-two__single">
+            <div class="service-two__image">
+              <img
+                src="../../assets/images/services/Crowns-Bridges.jpg"
+                alt="Awesome Image"
+              />
+            </div>
+            <!-- /.service-two__image -->
+            <div class="service-two__content">
+              <h3 class="service-two__title">
+                <a href="crowns-and-bridges.html" routerLink="/crowns"
+                  >Crowns & Bridges</a
+                >
+              </h3>
+              <!-- /.service-two__title -->
+              <p class="service-two__text">
+                A crown is used to cover a damaged tooth...
+              </p>
+              <!-- /.service-two__text -->
+              <a
+                href="crowns-and-bridges.html"
+                routerLink="/crowns"
+                class="service-two__link"
+                >Read More</a
+              >
+            </div>
+            <!-- /.service-two__content -->
+          </div>
+          <!-- /.service-two__single -->
+        </div>
+        <!-- /.col-lg-3 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.service-two -->
+
+  <section class="cta-two">
+    <div class="container">
+      <h2 class="cta-two__title">
+        Have Dental Problem : Call us at
+        <a href="tel:094328139" class="cta-two__highlight">09-432-8139</a> or
+        make an
+        <a
+          href="book-an-appointment.html"
+          class="cta-two__highlight cta-two__link"
+          >Appointment</a
+        >
+      </h2>
+      <!-- /.cta-two__title -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.cta-two -->
+</div>
+<!-- /.page-wrapper -->
+<a href="#" data-target="html" class="scroll-to-target scroll-to-top"
+  ><i class="fa fa-angle-up"></i
+></a>
