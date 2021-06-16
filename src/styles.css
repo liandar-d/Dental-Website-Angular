@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+.header-navigation ul.navigation-box > li.current > a, .header-navigation ul.navigation-box > li:hover > a {
+    color: #3bb29e;
+}

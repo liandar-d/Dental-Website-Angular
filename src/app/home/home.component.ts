@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private router: Router){ }
   ngOnInit(): void {
+    throw new Error('Method not implemented.');
   }
 
+  goToVotes($myParam: string = ''): void {
+    const navigationDetails: string[] = ['/book'];
+    if($myParam.length) {
+      navigationDetails.push($myParam);
+    }
+    this.router.navigate(navigationDetails);
+  }
 }
+
